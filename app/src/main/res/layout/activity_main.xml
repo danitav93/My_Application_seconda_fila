@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.danieletavernelli.my_application_seconda_fila.activity.MainActivity">
+
+
+    <TextView
+        android:id="@+id/activity_main_txt_viw_google_user_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/activity_main_sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <LinearLayout
+        android:layout_below="@id/activity_main_txt_viw_google_user_status"
+        android:id="@+id/activity_main_lin_lay_actions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/activity_main_switch_prima_fila"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1° fila" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prima_fila_info" />
+
+            <RelativeLayout
+                android:id="@+id/activity_main_lin_lay_user_detected_in_seconda_fila"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/activity_main_txt_viw_user_detected"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/activity_main_button_open_dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/search"
+                    android:onClick="openDialog"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/activity_main_switch_seconda_fila"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2° fila" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/in_modalit" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/activity_main_edit_text_messaggio_seconda_fila"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLength="150"
+                    android:maxLines="1"
+                    android:hint="Lascia un messaggio"
+                    />
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:id="@+id/activity_main_button_aggiorna_messaggio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aggiorna"
+                android:onClick="aggiornaNoteMessaggioSecondaFila"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

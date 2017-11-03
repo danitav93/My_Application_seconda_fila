@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">My_Application_seconda_fila</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_register_new_account">Register new account</string>
+    <string name="username">Username</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="email_optional">Email (optional)</string>
+    <string name="activity_main_title_action_bar">Ciao %1$s!</string>
+    <string name="email">Email</string>
+    <string name="registerUserNameRulesViolated">regola per lo username non rispettata</string>
+    <string name="registerPasswordRulesViolated">violata regola per la password</string>
+    <string name="registerPasswordRepeatedRulesViolated">Le password inserite non coincidono.</string>
+    <string name="registerEmailRulesViolated">Email non corretta, violazione regola</string>
+    <string name="signed_in_google">Ciao %s!</string>
+    <string name="prima_fila_info">In modalità "1° fila", l\'applicazione cerca costantemente altri utenti nelle tue vicinanze che sono invece in modalità "seconda" fila. Se viene rilevato un utente questo verrà mostrato in una apposita pop up e verranno illustrate le caratteristiche della sua auto. Se le caratteristiche sono corrispondenti si potrà inviare una richiesta di liberare lo spazio.</string>
+    <string name="in_modalit">In modalità "2° fila" potrai ricevere notifiche dagli utenti nelle tue vicinanze che desiderano che tu sposti la tua vettura. Le caratteristiche della tua auto sono quelle date fornite nella pagina relativa alla voce "Dati personali" del menu</string>
+    <string name="user_detected_txt_viw">Sto inviando notifiche all\'utente</string>
+    <string name="message_allert_dialog">%s ti sta chiedendo di spostare il veivolo!</string>
+</resources>

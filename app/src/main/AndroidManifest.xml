@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.danieletavernelli.my_application_seconda_fila"
+    tools:overrideLibrary="com.exemple.tavernelli.daniele.libreriadidanieletavernelli"
+    >
+
+
+    <application
+        tools:replace="android:icon"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:name="com.orm.SugarApp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="DATABASE"
+            android:value="sugar_example.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="0" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.example.danieletavernelli.my_application_seconda_fila.database.entity" />
+        <service
+            android:name=".utility.services.PrimaFilaService"
+            android:exported="false"/>
+        <meta-data
+            android:name="com.google.android.nearby.messages.API_KEY"
+            android:value="AIzaSyBylBwfu0051ZCVx0MGEJiO2Kr1PNLzK-8"  />
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

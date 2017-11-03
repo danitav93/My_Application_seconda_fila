@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "445427337984",
+    "project_id": "seconda-fila"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445427337984:android:ffffc4ba4cd91f2c",
+        "android_client_info": {
+          "package_name": "com.example.danieletavernelli.my_application_seconda_fila"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445427337984-4mjiscehf1qim6avqu07vr9gsvk3pjt0.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "445427337984-b0o73dpobg78cire19ufh6jnuvrra7as.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tavernelli.daniele",
+            "certificate_hash": "2085ef8adb6cc2a0bbe7530d60b1d349b27510f0"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBylBwfu0051ZCVx0MGEJiO2Kr1PNLzK-8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

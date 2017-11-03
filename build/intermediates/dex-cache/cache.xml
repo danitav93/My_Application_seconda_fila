@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_deec90b6fabd04dff125aa2969f1f1f96fd1ce97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-11.0.4_e584fc889397b97cd25ec617d954ad543020466c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.github.satyan\sugar\1.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07e07903922250dabf50c7d131d6fa069a050305">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.github.satyan-sugar-1.3_ded1495e3dd976453d69998275f081349d05472d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_907af26cc96dec560ad374cbe3f98c6c9e03f5db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.3.1_00755d40db84eb1fb191056c057c6826a92293f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-11.0.4_8ccc74b902b6bd04da820665d332b33bdb43b984.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-11.0.4_9a9e13873748e4e5a03bb43d47d844cc3a45b35a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e1625e48a836779b5fa141d22e5d05563aaccc9a">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-11.0.4_54a81061571c8378c6ffc16f25d62b3209cc3845.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.3.1_e6ab8a13303a7c102fac748ff1d4dbaaf07466de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.github.danitav93\LibreriaDiDanieleTavernelli\0.9\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7b3f4bf11410b155e92f4e2f4946b6522251c8d7">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.github.danitav93-LibreriaDiDanieleTavernelli-0.9_6eea2ed4fc6da5a589a25b7fb63fe14b3a25d75c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2c379c235d7983201bb83edfc3c60bb0dafb5805">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-11.0.4_87ccf189e42ef778537049e9650956c01b99a3d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_c07c5279d5257ea51f2013c37ee4485f3883067d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43e9789bd3240271265ab30ce1be9f224843f5a8">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-11.0.4_49fc842f90f4747585f3bd4d91c7fbd6c10ccfbf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_769ead741c1965df6f88b92dc9afee1ed2159bd7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0bffdc0bd4f7ca0e27c5bfeef39569f8da00aa26">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-11.0.4_6b2578d873f95b711774432eb2e18241bebadbd5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f5ff5e3811e8c9485fd27f9052ae4d4d23a22d9d">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-11.0.4_908219feadf1a9fa6de68d1b941503b1f138ce87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_5831595804cedf8396fe3a597ba89e36aeb5bb6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ed87ccdcb70c17d71ba4e6e4ac16afa62d3c49fb">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-11.0.4_2a5ec1dd8f4cf91514c2226a26484b5caad1bc33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_abeec32022e6b0fe1b2ec7666fc339080c4f937b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_89b3a748b0e934f005b0adf482282d110fb6ace0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_6d22222bfc6c9117eef7b956c2c54177acdf43fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.3.1_8492c9fb9b1626548bb0bb22e1fbc348a5431852.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5b429c146094a612134910688d169ec08deeefb">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-11.0.4_ab2933639adfd82b7dbd2fe983505494a8ac1a98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_096b1cecec19eb2b66d8b8bea8d8f24ac80a05aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\progetttiAndroid\My_Application_seconda_fila\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_b81eebad6f8c80708e1c5196b2577e72be1e60be.jar" />
+    </item>
+
+</items>
