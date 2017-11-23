@@ -10,14 +10,17 @@
         android:id="@+id/dialog_allert_mode_txt_viw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"/>
+        android:layout_marginBottom="40dp"
+        android:text= "                       Devo uscire con la mia auto.
+                       Puoi venire a spostare la tua (modello) ?
+                       Ti lascerò il aprcheggio!"/>
 
     <ImageView
         android:id="@+id/dialog_allert_mode_img_viw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/toast_frame"
-        android:contentDescription="@null" />
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/rosso" />
 
 
 
