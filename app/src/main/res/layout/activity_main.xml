@@ -11,85 +11,68 @@
     tools:context="com.example.danieletavernelli.my_application_seconda_fila.activity.MainActivity">
 
 
+    <!--QUESTA TEXT VIEW OSPITERà L'USER NAME DI GOOGLE DELL'UTENTE LOGGATO,
+    PER MOSTRARLO METTI L'ATTRIBUTO VISIBIBILITY A VISIBLE -->
     <TextView
         android:id="@+id/activity_main_txt_viw_google_user_status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
 
+    <!--QUESTO BOTTONE SERVE ALL'UTENTE PER LOGGARSI,
+    PER MOSTRARLO METTI L'ATTRIBUTO VISIBIBILITY A VISIBLE-->
     <com.google.android.gms.common.SignInButton
         android:id="@+id/activity_main_sign_in_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true" />
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
 
+
+
+    <!--QUESTO LINEAR LAYOUT CONTIENE TUTTI GLI OGGETTI ASSOCIATI
+    ALLA MODALITà "SOSTA VIETATA"-->
     <LinearLayout
-        android:layout_below="@id/activity_main_txt_viw_google_user_status"
         android:id="@+id/activity_main_lin_lay_actions"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_below="@id/activity_main_txt_viw_google_user_status"
         android:orientation="vertical"
-        android:weightSum="2">
+        >
 
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sosta vietata"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attiva Doppia Fila quanto ti trovi in sosta vietata." />
+
+        <Switch
+            android:layout_marginTop="30dp"
+            android:id="@+id/activity_main_switch_prima_fila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <!--QUESTO LINEAR LAYOUT CONTENUTO IN QUELLO PRECEDENTE,
+        CONTIENE TUTTI GLI OGGETTI CHE APPARIRANNO E SCOMPARIRANNO
+        QUANDO VIENE ATTIVATO O DISATTIVATO LO SWITCH"-->
         <LinearLayout
+            android:layout_marginTop="30dp"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <Switch
-                android:id="@+id/activity_main_switch_prima_fila"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Sosta vietata"
-                android:textStyle="bold"/>
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Attiva Doppia Fila quanto ti trovi in sosta vietata." />
-
-            <Switch
-                android:id="@+id/activity_main_switch_prima_fila"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity=""
-
-
-
-
-
-            <RelativeLayout
-                android:id="@+id/activity_main_lin_lay_user_detected_in_seconda_fila"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/activity_main_txt_viw_user_detected"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:visibility="gone" />
-
-                <ImageButton
-                    android:id="@+id/activity_main_button_open_dialog"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentRight="true"
-                    android:src="@drawable/search"
-                    android:onClick="openDialog"/>
-            </RelativeLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
 
@@ -97,6 +80,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Ora gli altri utenti sanno che ti trovi in sosta vietata e potranno rintracciarti per avvertirti di spostare la tua autovettura." />
+
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
@@ -106,20 +90,35 @@
                     android:id="@+id/activity_main_edit_text_messaggio_seconda_fila"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:maxLength="150"
-                    android:maxLines="1"
                     android:hint="Vuoi lasciare un messaggio agli altri utenti che li informa su dove ti trovi?"
-                    />
+                    android:maxLength="150"
+                    android:textSize="18sp"
+                    android:maxLines="1" />
             </android.support.design.widget.TextInputLayout>
+
             <Button
                 android:id="@+id/activity_main_button_aggiorna_messaggio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="aggiorna"
-                android:onClick="aggiornaNoteMessaggioSecondaFila"/>
+                android:onClick="aggiornaNoteMessaggioSecondaFila"
+                android:text="aggiorna" />
+
         </LinearLayout>
+
 
     </LinearLayout>
 
+    <!--QUESTO BOTTONE SE APERTO APRE LA DIALOG CHE RICERCA
+     GLI UTENTI IN MODALITà SECONDA FILA, NON è CONTENUTA IN NESSUN LINEAR
+     LAYOUT MA NEL RELATIVE LAYOUT PRINCIPALE"-->
+    <ImageButton
+        android:id="@+id/activity_main_button_open_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="openDialog"
+        android:src="@drawable/search"
+        android:contentDescription="@null" />
 
 </RelativeLayout>
