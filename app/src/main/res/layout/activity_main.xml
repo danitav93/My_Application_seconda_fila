@@ -44,12 +44,24 @@
                 android:id="@+id/activity_main_switch_prima_fila"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1° fila" />
+                android:text="Sosta vietata"
+                android:textStyle="bold"/>
+
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/prima_fila_info" />
+                android:text="Attiva Doppia Fila quanto ti trovi in sosta vietata." />
+
+            <Switch
+                android:id="@+id/activity_main_switch_prima_fila"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity=""
+
+
+
+
 
             <RelativeLayout
                 android:id="@+id/activity_main_lin_lay_user_detected_in_seconda_fila"
@@ -80,16 +92,11 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
-            <Switch
-                android:id="@+id/activity_main_switch_seconda_fila"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="2° fila" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/in_modalit" />
+                android:text="Ora gli altri utenti sanno che ti trovi in sosta vietata e potranno rintracciarti per avvertirti di spostare la tua autovettura." />
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
@@ -101,7 +108,7 @@
                     android:layout_height="wrap_content"
                     android:maxLength="150"
                     android:maxLines="1"
-                    android:hint="Lascia un messaggio"
+                    android:hint="Vuoi lasciare un messaggio agli altri utenti che li informa su dove ti trovi?"
                     />
             </android.support.design.widget.TextInputLayout>
             <Button
